@@ -1,0 +1,64 @@
+@charset "utf-8";
+@font-face {
+    font-family: "MauraViolic";
+    src:url("./MauraViolic.ttf");
+	}
+	.naslov1{
+           text-align: center;
+			color: rgb(128, 14, 14);
+			font-family: "MauraViolic";
+		}
+    .naslov2{
+            text-align: center;
+			color: rgb(128, 14, 14);
+    }
+    h2{
+        color: rgb(12, 54, 82);
+        text-align: center;
+    }
+    h3{
+        color: rgb(12, 54, 82);
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    ul {	
+			padding:20px; 
+			margin-left: 150px; 
+			margin-right:auto;  
+			width: 500px;
+    }
+	li {	display:inline;
+			background-color: rgb(12, 54, 82);
+			padding:20px;
+			border: 2px solid rgb(8, 40, 59);
+		}
+	li:active {background-color:rgb(22, 85, 128)}
+		
+	li a {	color:white; 
+			font-family: 'Times New Roman', Times, serif;
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+    .pozadina{
+    background-image:  url("./slike/pozadina1.jpg");
+    }
+    .blok{
+        background-color: rgb(203, 237, 253);
+        padding: 10px;
+        margin: 10px;
+        width: 38.5%;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        padding: 15px;
+    }
+    video{
+        padding: 15px;
+    }
